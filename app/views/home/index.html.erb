@@ -1,2 +1,6 @@
 <br/>
 <h1>Home Page</h1>
+
+<% if Current.user %>
+<h3>Welcome back <%= Current.user.name %> </h3>
+<% end %>
